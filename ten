@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>圣经里的“七宗罪”与经文（中英对照·和合本 & NIV）</title>
+<style>
+  :root{ --bg:#0b0b10; --card:#12121a; --ink:#eaeaf2; --muted:#9aa0a6; --brand:#7aa2ff; }
+  html,body{height:100%;margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,"Noto Sans SC",sans-serif;}
+  .wrap{max-width:860px;margin:0 auto;padding:20px;height:100%;display:flex;flex-direction:column;}
+  header{padding:8px 0 16px;border-bottom:1px solid #222;}
+  h1{font-size:24px;margin:8px 0 2px}
+  .sub{color:var(--muted);font-size:14px}
+  .screen{position:relative;flex:1;display:flex;align-items:stretch;justify-content:center;padding:16px 0}
+  .page{display:none;background:var(--card);border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.35);padding:24px;line-height:1.68}
+  .page.active{display:block}
+  .pg-title{font-size:18px;margin:0 0 12px;color:#cbd5ff}
+  .verse{white-space:pre-wrap}
+  .ref{margin-top:10px;color:var(--muted);font-size:13px}
+  .note{margin-top:12px;color:#b6f3d3}
+  nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:16px}
+  .pager{display:flex;gap:6px;flex-wrap:wrap}
+  .dot{width:36px;height:36px;border-radius:10px;background:#1b1b25;color:#cfd5dd;display:grid;place-items:center;cursor:pointer;border:1px solid #222}
+  .dot.active{background:var(--brand);color:#0b0b10;border-color:transparent}
+  .btn{background:#1b1b25;border:1px solid #222;color:#dfe6ee;border-radius:10px;padding:10px 14px;cursor:pointer}
+  .btn:disabled{opacity:.4;cursor:not-allowed}
+  .foot{margin-top:10px;color:var(--muted);font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>圣经里的“七宗罪”与经文（中英对照）</h1>
+    <div class="sub">说明：圣经并未把“七宗罪”作为统一清单列出，但有若干经文与之相对应。以下采用中文和合本（简体）与英文 NIV 经文原文。</div>
+  </header>
+
+  <div class="screen">
+    <!-- Page 1: 引言与箴言6:16-19 -->
+    <section class="page active" id="p1">
+      <h2 class="pg-title">P1｜最接近“清单”的经文：箴言 6:16–19</h2>
+      <div class="verse">
+【和合本】
+16 耶和华所恨恶的有六样，连他心所憎恶的共有七样：
+17 就是高傲的眼，撒谎的舌，流无辜人血的手，
+18 图谋恶计的心，飞跑行恶的脚，
+19 吐谎言的假见证，并弟兄中布散纷争的人。
+
+【NIV】
+16 There are six things the Lord hates,
+    seven that are detestable to him:
+17 haughty eyes, a lying tongue,
+    hands that shed innocent blood,
+18 a heart that devises wicked schemes,
+    feet that are quick to rush into evil,
+19 a false witness who pours out lies
+    and a person who stirs up conflict in the community.
+      </div>
+      <div class="ref">（和合本·简体 / NIV）箴言 6:16–19</div>
+      <div class="note">注：这段与“七宗罪”有交叠，但并非后世“七宗罪”之教义清单。</div>
+    </section>
+
+    <!-- Page 2: 傲慢 Pride - 巴别塔 创11:4,7-9 -->
+    <section class="page" id="p2">
+      <h2 class="pg-title">P2｜傲慢 Pride：巴别塔（创世记 11）</h2>
+      <div class="verse">
+【和合本】
+4 他们说：“来吧！我们要建造一座城和一座塔，塔顶通天，为要传扬我们的名，免得我们分散在全地上。”
+7 我们下去，在那里变乱他们的口音，使他们的言语彼此不通。”
+8 于是耶和华使他们从那里分散在全地上；他们就停工，不造那城了。
+9 因为耶和华在那里变乱天下人的言语，使众人分散在全地上，所以那城名叫巴别（就是变乱的意思）。
+
+【NIV】
+4 Then they said, “Come, let us build ourselves a city, with a tower that reaches to the heavens, so that we may make a name for ourselves; otherwise we will be scattered over the face of the whole earth.”
+7 Come, let us go down and confuse their language so they will not understand each other.”
+8 So the Lord scattered them from there over all the earth, and they stopped building the city.
+9 That is why it was called Babel—because there the Lord confused the language of the whole world. From there the Lord scattered them over the face of the whole earth.
+      </div>
+      <div class="ref">（和合本·简体 / NIV）创世记 11:4,7–9</div>
+    </section>
+
+    <!-- Page 3: 贪婪 Greed - 徒5:3 -->
+    <section class="page" id="p3">
+      <h2 class="pg-title">P3｜贪婪 Greed：亚拿尼亚与撒非喇（使徒行传 5）</h2>
+      <div class="verse">
+【和合本】
+3 彼得说：“亚拿尼亚！为什么撒但充满了你的心，叫你欺哄圣灵，把田地的价银私自留下几分呢？”
+
+【NIV】
+3 Then Peter said, “Ananias, how is it that Satan has so filled your heart that you have lied to the Holy Spirit and have kept for yourself some of the money you received for the land?”
+      </div>
+      <div class="ref">（和合本·简体 / NIV）使徒行传 5:3（参 5:1–11）</div>
+    </section>
+
+    <!-- Page 4: 色欲 Lust - 撒下11:2 -->
+    <section class="page" id="p4">
+      <h2 class="pg-title">P4｜色欲 Lust：大卫与拔示巴（撒母耳记下 11）</h2>
+      <div class="verse">
+【和合本】
+2 一日，太阳平西，大卫从床上起来，游行在王宫的平顶上，从屋顶上看见一个妇人沐浴，那妇人容貌甚美。
+
+【NIV】
+2 One evening David got up from his bed and walked around on the roof of the palace. From the roof he saw a woman bathing. The woman was very beautiful,
+      </div>
+      <div class="ref">（和合本·简体 / NIV）撒母耳记下 11:2（参 11–12 章）</div>
+    </section>
+
+    <!-- Page 5: 嫉妒 Envy - 创4:8 -->
+    <section class="page" id="p5">
+      <h2 class="pg-title">P5｜嫉妒 Envy：该隐与亚伯（创世记 4）</h2>
+      <div class="verse">
+【和合本】
+8 该隐与他兄弟亚伯说话；二人正在田间，
+该隐起来打他兄弟亚伯，把他杀了。
+
+【NIV】
+8 Now Cain said to his brother Abel, “Let’s go out to the field.” While they were in the field, Cain attacked his brother Abel and killed him.
+      </div>
+      <div class="ref">（和合本·简体 / NIV）创世记 4:8</div>
+    </section>
+
+    <!-- Page 6: 暴食 Gluttony - 箴23:20-21 -->
+    <section class="page" id="p6">
+      <h2 class="pg-title">P6｜暴食 Gluttony：箴言的警戒</h2>
+      <div class="verse">
+【和合本】
+20 好饮酒的，好吃肉的，不要与他们来往；
+21 因为好酒贪食的，必致贫穷；好睡觉的，必穿破烂衣服。
+
+【NIV】
+20 Do not join those who drink too much wine
+    or gorge themselves on meat,
+21 for drunkards and gluttons become poor,
+    and drowsiness clothes them in rags.
+      </div>
+      <div class="ref">（和合本·新标点 / NIV）箴言 23:20–21</div>
+    </section>
+
+    <!-- Page 7: 愤怒 Wrath - 太5:22 -->
+    <section class="page" id="p7">
+      <h2 class="pg-title">P7｜愤怒 Wrath：登山宝训（马太福音 5）</h2>
+      <div class="verse">
+【和合本】
+22 只是我告诉你们：凡（有古卷在“凡”字下加：无缘无故地）向弟兄动怒的，难免受审断；凡骂弟兄是拉加的，难免公会的审断；凡骂弟兄是魔利的，难免地狱的火。
+
+【NIV】
+22 But I tell you that anyone who is angry with a brother or sister will be subject to judgment. Again, anyone who says to a brother or sister, ‘Raca,’ is answerable to the court. And anyone who says, ‘You fool!’ will be in danger of the fire of hell.
+      </div>
+      <div class="ref">（和合本·简体 / NIV）马太福音 5:22</div>
+    </section>
+
+    <!-- Page 8: 懒惰 Sloth - 太25:26 ；附：肉体的事总表 加5:19-21 -->
+    <section class="page" id="p8">
+      <h2 class="pg-title">P8｜懒惰 Sloth：才干比喻（马太福音 25）／附录</h2>
+      <div class="verse">
+【和合本】
+26 主人回答说：“你这又恶又懒的仆人，你既知道我没有种的地方要收割，没有散的地方要聚敛，……”
+
+【NIV】
+26 “His master replied, ‘You wicked, lazy servant! So you knew that I harvest where I have not sown and gather where I have not scattered seed?”
+
+【附录】“肉体的事”总表（与七宗罪多所重叠）：
+【和合本】
+19 情欲的事都是显而易见的，就如奸淫、污秽、邪荡、
+20 拜偶像、邪术、仇恨、争竞、忌恨、恼怒、结党、纷争、异端、
+21 嫉妒（有古卷加：凶杀）、醉酒、荒宴等类。
+
+【NIV】
+19 The acts of the flesh are obvious: sexual immorality, impurity and debauchery;
+20 idolatry and witchcraft; hatred, discord, jealousy, fits of rage, selfish ambition, dissensions, factions
+21 and envy; drunkenness, orgies, and the like.
+      </div>
+      <div class="ref">提示：可将本页作为课堂/讲道的“对照与延伸阅读”页。</div>
+    </section>
+  </div>
+
+  <nav>
+    <button class="btn" id="prev">上一页</button>
+    <div class="pager" id="pager"></div>
+    <button class="btn" id="next">下一页</button>
+  </nav>
+
+  <div class="foot">© 基于中文和合本与英文 NIV 文本摘录，仅供学习研读；如需公共演示，请同时标注出处与章节。</div>
+</div>
+
+<script>
+  const pages = Array.from(document.querySelectorAll('.page'));
+  const pager = document.getElementById('pager');
+  const prev = document.getElementById('prev');
+  const next = document.getElementById('next');
+  let idx = 0;
+
+  function renderDots(){
+    pager.innerHTML='';
+    pages.forEach((_,i)=>{
+      const d=document.createElement('button');
+      d.className='dot'+(i===idx?' active':'');
+      d.textContent = (i+1);
+      d.addEventListener('click',()=>go(i));
+      pager.appendChild(d);
+    });
+  }
+  function go(i){
+    pages[idx].classList.remove('active');
+    idx = Math.max(0, Math.min(pages.length-1, i));
+    pages[idx].classList.add('active');
+    renderDots();
+    prev.disabled = idx===0; next.disabled = idx===pages.length-1;
+  }
+  prev.addEventListener('click',()=>go(idx-1));
+  next.addEventListener('click',()=>go(idx+1));
+  renderDots();
+  go(0);
+</script>
+</body>
+</html>
